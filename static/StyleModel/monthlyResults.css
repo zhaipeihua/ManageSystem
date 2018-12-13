@@ -1,0 +1,71 @@
+/*.mui-bar-nav~.mui-content{*/
+  /*padding-top: 0.89rem !important;*/
+/*}	*/
+input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea{
+	margin: 0;
+	padding: 0;
+	border: none;
+	background: none;
+}
+.mui-content>.mui-table-view:first-child{
+	margin-top: 0 !important;
+}
+.mui-icon-arrowleft:before {
+    color: #fff!important;
+}
+.mui-table-view-cell:after{
+	left: 0 !important;
+}
+textarea,input[type=text]{
+	font-size: 0.28rem !important;
+}
+textarea::-webkit-input-placeholder,
+input[type=text]::-webkit-input-placeholder{ /* WebKit browsers */
+    color:    #ccc;
+}
+textarea:-moz-placeholder ,
+input[type=text]:-moz-placeholder{ /* Mozilla Firefox 4 to 18 */
+    color:    #ccc;
+}
+textarea::-moz-placeholder,
+input[type=text]::-moz-placeholder{ /* Mozilla Firefox 19+ */
+    color:    #ccc;
+}
+textarea:-ms-input-placeholder,
+input[type=text]:-ms-input-placeholder{ /* Internet Explorer 10+ */
+    color:    #ccc;
+}
+
+.backIcon{
+	width: .5rem;
+	height: .89rem;
+	display: inline-block;
+	float: left;
+	background: url(../iconAll/img/arrow.png) left center no-repeat;
+	background-size: 50% 50%;
+}
+header {
+    background-color: #fff !important;
+	border-bottom: 1px solid #eee!important;
+	box-shadow: 0 4px 5px -3px #eee!important;
+    height: 0.89rem !important;
+}
+.title {
+    color: #000 !important;
+    height: 0.89rem !important;
+    line-height: 0.89rem !important;
+    font-size: 0.36rem !important;
+}
+.daily_content{
+	display: block;
+	padding-left: 0.6rem !important;
+	background-image:url(../iconAll/img/icon-ddh.png);
+	background-repeat:no-repeat ;
+	background-size:0.28rem 0.34rem;
+	background-position:0.2rem ;
+	font-size: 0.3rem;
+	color: #444;
+}
+.mui-table-view-cell:after{
+	left: 0 !important;
+}

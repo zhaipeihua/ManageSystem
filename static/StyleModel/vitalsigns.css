@@ -1,0 +1,271 @@
+
+header,.head {
+	padding-left: .2rem;
+    background-color: #fff !important;
+    z-index: 99999 !important;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 4px 5px -3px #eee;
+    height: .89rem!important;
+
+}
+.mui-title {
+    color: #000;
+    font-size: 0.36rem !important;
+    height: .89rem!important;
+    line-height:.89rem!important;
+}
+input[type=color],
+input[type=date],
+input[type=datetime-local],
+input[type=datetime],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week],
+select{
+    line-height: 21px;
+    height: 40px;
+    margin-bottom: 0!important;
+    padding: 0!important;
+    -webkit-user-select: text;
+    border:none!important;
+    border-radius: 3px;
+    outline: 0;
+    background-color: #fff;
+    -webkit-appearance: none;
+    font-size: .3rem!important;
+}
+textarea{
+    padding: 0!important;
+    font-size: .3rem!important;
+}
+.back_to_befor{
+   width: .5rem;
+    height: .89rem;
+    display: inline-block;
+    float: left;
+    background: url(../iconAll/img/arrow.png) left center no-repeat;
+    background-size: 50% 50%;
+}
+.determine {
+	display: block;
+	width: 1rem;
+	height: 0.52rem;
+	line-height: 0.52rem !important;
+	padding: 0 !important;
+	border: none;
+	background-image: url(../iconAll/img/determine.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 100% 100%;
+	color: #fff !important;
+	text-align: center;
+	margin-top: 0.185rem;
+}
+.mui-input-row label {
+    font-family: 'Helvetica Neue',Helvetica,sans-serif;
+    line-height: .89rem;
+    float: left;
+    width:25%;
+    padding:0!important;
+}
+
+.other_con{
+	padding-top: .89rem;
+	width: 100%;
+	box-sizing: border-box;
+    height: calc(100vh);
+    overflow: auto;
+}
+.mui-input-group .mui-input-row:after{
+	height: 0!important;
+	background-color: #fff!important;
+}
+.other_con{
+    width: 100%;
+    font-size: .3rem!important;
+    background-color: #fff;
+
+}
+.content_box{
+    padding: 0 .2rem 0 .2rem;
+    color: #444;
+}
+.life_block{
+    width: .5rem;
+    height: .89rem;
+    display: inline-block;
+    float: left;
+    background: url(../iconAll/img/arrow.png) left center no-repeat;
+    background-size: 50% 50%;
+}
+.operat_back{
+    width: .5rem;
+    height: .89rem;
+    display: inline-block;
+    float: left;
+    background: url(../iconAll/img/arrow.png) left center no-repeat;
+    background-size: 50% 50%;
+}
+
+.cont>li{
+	position: relative;
+    width: 100%;
+    height:40px;
+    line-height: 0.89rem!important;
+    border-bottom: 1px solid #f2f2f2;
+}
+ .mui-input-row label~select{
+ 	width: 75%!important;
+ 	font-size: .3rem!important;
+ 	color:#444;
+ }
+
+.cont div{
+    width: 5.1rem;
+    font-size: .3rem;
+    color:#444;
+}
+.allsame{
+    /*float: left!important;*/
+    display: inline-block;
+    height: .5rem;
+    line-height: .5rem;
+}
+.cont img{
+    float: right;
+}
+
+.cont textarea{
+    width: 5rem;
+    padding-top: .2rem!important;
+    padding-left: 0;
+    border: none;
+    resize: none;
+}
+#datepicker{
+    text-align: left;
+    border: none;
+    width: 5.1rem;
+    height: .89rem;
+    line-height: .89rem;
+    font-size: .3rem;
+    margin-left: 0;
+}
+#datepicker1{
+    text-align: left;
+    border: none;
+    width: 5.1rem;
+    height: .89rem;
+    line-height: .89rem;
+    margin-left: 0;
+}
+#datepicker1 div:empty::before{
+    -webkit-user-select:text;
+    color:#888;
+    content: attr(placeholder);
+}
+#datepicker div:empty::before{
+    -webkit-user-select:text;
+    color:#888;
+    content: attr(placeholder);
+}
+.mui-dtpicker-title {
+    font-size: .3rem;
+}
+.mui-backdrop {
+    position: fixed;
+    z-index: 998;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .3);
+}
+#righticon {
+    float: right;
+    display: flex;
+    height: .85rem;
+    width: .6rem;
+    line-height: .89rem;
+    align-items: center;
+    padding-right: .4rem;
+    background: #fff url(../iconAll/img/jtkb.png) center center no-repeat;
+    background-size: .25rem .5rem;
+}
+#righticon1 {
+    float: right;
+    display: flex;
+    height: .85rem;
+    width: .6rem;
+    line-height: .89rem;
+    align-items: center;
+    padding-right: .4rem;
+    background: #fff url(../iconAll/img/jtkb.png) center center no-repeat;
+    background-size: .25rem .5rem;
+}
+#righticon2 {
+    float: right;
+    display: flex;
+    height: .85rem;
+    width: .6rem;
+    line-height: .89rem;
+    align-items: center;
+    padding-right: .4rem;
+    background: #fff url(../iconAll/img/jtkb.png) center center no-repeat;
+    background-size: .25rem .5rem;
+}
+.allergy{
+    appearance:none;
+    -moz-appearance:none;/*?Firefox?*/
+    -webkit-appearance:none;/*?Safari?和?Chrome?*/
+    width: 5rem;
+    height: .8rem;
+    font-size: .3rem;
+    padding: 0!important;
+    color:#444;
+    background: none;
+}
+.mui-bar {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.allergy option{
+    padding-left: .2rem;
+    height: .7rem;
+    line-height: .7rem;
+}
+.mui-dtpicker-header button:last-child {
+    float: right;
+    background-color: #007aff;
+    color: #fff;
+}
+.cont div:empty::before {
+    -webkit-user-select:text;
+    color:#888;
+    content: attr(placeholder);
+}
+#eat_drug,.disease_his{
+    width: 4.7rem;
+    line-height:.5rem;
+    overflow-y: scroll;
+    padding-top: .22rem;
+}
+
+.rigth-icon, .rigth-icon1, .rigth-icon2{
+    display: inline-block;
+    position: absolute;
+    right: .2rem;
+    height: .6rem;
+    padding-top: .2rem;
+    padding-right: .2rem;
+}
+.mui-input-row label~input, .mui-input-row label~select, .mui-input-row label~textarea{
+    float: left;!important;
+}

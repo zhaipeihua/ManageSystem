@@ -1,0 +1,320 @@
+html,body{
+	height: 100%;
+}
+.mui-bar-nav {
+    padding: 0 !important;
+	height: .89rem;!important;
+	background-color: #fff;
+	border-bottom: 1px solid #eee!important;
+	box-shadow: 0 4px 5px -3px #eee!important;
+
+}
+.head {
+    height: 0.89rem;
+    background-color: #fff;
+    padding: 0 0.2rem !important;
+}
+.backIcon{
+	width: .5rem;
+    height: .89rem;
+    display: inline-block;
+    float: left;
+    background: url(../iconAll/img/arrow.png) left center no-repeat;
+    background-size: 50% 50%;
+}
+.title {
+    color: #000 !important;
+    height: 0.89rem !important;
+    line-height: 0.89rem !important;
+    font-size: 0.36rem !important;
+}
+
+.content{
+	height:100vh;
+	background-color:#fff !important;
+	padding-top: 0.89rem !important;
+}
+
+.iconLi>a>span{
+	 display: inline-block;
+     width: 0.73rem;
+	 height: 0.73rem;
+	 background-size: 100% 100%;
+	 
+}
+.iconLi>a>div{
+	color: #454545 !important;
+	margin-top: 0.3rem !important;
+}
+.oUl{
+	margin-top:0 !important;
+	background-color: #fff !important;
+}
+/*第一排图标*/
+.leave{
+	background: url(../iconAll/custom_office_img/qj.png)center center no-repeat;
+}
+.booking{
+	background: url(../iconAll/custom_office_img/dp.png)center center no-repeat;
+}
+.apply_purchase{
+	background: url(../iconAll/custom_office_img/sg.png)center center no-repeat;
+}
+/*第二排图标*/
+.send_cad{
+	background: url(../iconAll/custom_office_img/pc.png)center center no-repeat;
+}
+.group_meeting{
+	background: url(../iconAll/custom_office_img/zy.png)center center no-repeat;
+}
+.reimbursement{
+	background: url(../iconAll/custom_office_img/bx.png)center center no-repeat;
+}
+/*第三排图标*/
+.rebate{
+	background: url(../iconAll/custom_office_img/fh.png)center center no-repeat;
+}
+.borrow_money{
+	background: url(../iconAll/custom_office_img/jk.png)center center no-repeat;
+}
+.special_approval{
+	background: url(../iconAll/custom_office_img/tp.png)center center no-repeat;
+}
+/*第四排图标*/
+.recruit{
+	background: url(../iconAll/custom_office_img/zp.png)center center no-repeat;
+}
+
+/*底部导航*/
+
+.tabbarNav{
+	-webkit-box-shadow: 0 0 1px rgba(0,0,0,0.1) !important;
+	height: 1rem;
+	background-color:#fff !important;
+	bottom: 0;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	/* table-layout: fixed; */
+	border-top: 0;
+	border-bottom: 0;
+	-webkit-touch-callout: none;
+}
+
+.newApplication>span,
+.myApproval>span,
+.submitted>span{
+	position: relative;
+	margin: 0 auto;
+	display: block;
+	width: 0.5rem;
+	margin-top: .05rem;
+	height: 0.5rem;
+	background-size: 80% 80%;
+	-webkit-filter:grayscale(1);
+	
+}
+.myActive>span{
+	 -webkit-filter:grayscale(0);
+}
+.myActive>p{
+	  color: #cda065 !important;
+}
+.newIcon{
+	background: url(../iconAll/custom_office_img/xsq.png)center center no-repeat;
+}
+.myIcon{
+	background: url(../iconAll/custom_office_img/wsp.png)center center no-repeat;
+}
+.subIcon{
+	background: url(../iconAll/custom_office_img/ytj.png)center center no-repeat;
+}
+.newApplication>p,
+.myApproval>p,
+.submitted>p{
+	 margin-bottom:0.02rem !important;
+	 font-size:0.2rem !important;
+}
+.show {display: block;}
+
+
+
+/*我审核*/
+/*搜索部分*/
+
+.search::-webkit-input-placeholder {
+	/* WebKit browsers */
+	color: #ccc;
+}
+
+.search:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: #ccc;
+}
+
+.search::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #ccc;
+}
+
+.search:-ms-input-placeholder {
+	/* Internet Explorer 10+ */
+	color: #ccc;
+}
+.search-box {
+	padding: 0.27rem 0.3rem;
+	height: 1.2rem !important;
+	background: #fff !important;
+	margin-top: 1rem;
+}
+.search-box>span {
+    width: 100%;
+    display: block;
+    background-color: #f2f2f2 !important;
+    height: 0.66rem !important;
+    border-radius: 9.99rem;
+    line-height: 0.66rem;
+    overflow: hidden;
+    padding-left: 0.60rem;
+    background-image: url(../iconAll/img/search-icon.png)!important;
+    background-repeat: no-repeat;
+    background-position: 0.26rem;
+    background-size: 0.32rem 0.31rem;
+}
+.search-box>span>input[type=text] {
+    border: none !important;
+    padding: 0 0.15rem !important;
+    height: 0.66rem;
+    background: none !important;
+    font-size: 0.28rem;
+    color: #444;
+}
+/*tab*/
+.mui-table-view-cell:after{
+	left: 0 !important;
+	height: 0 !important;
+	
+}
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{
+	color: #c69352!important;
+    border-bottom: 2px solid #c69352;
+    background: 0 0;
+    border-bottom: 2px solid #c69352!important;
+}
+.myTab {
+    display: inline-block;
+    float: left;
+    width: 33%;
+    text-align: center;
+    color: #444444;
+}
+
+#sliderSegmentedControl{
+	background: #fff;
+}
+.arrUl{
+	background: none !important;
+}
+.aLi:first-child{
+	 margin-top: 0 !important;
+}
+.aLi{
+	background: #fff;
+    margin-top: 0.2rem !important;
+     padding-right:0.3rem !important;
+}
+.auditTop{
+	display: flex;
+	 justify-content:space-between;
+	 border-bottom: 1px solid #eee;
+	 padding-bottom: 0.2rem;
+}
+.auditTit{
+	margin-left: 0.1rem;
+	color: #444;
+	font-size: 0.3rem;
+}
+.state{
+	margin-right: 0.1rem;
+	color: #2b8837;
+	font-size: 0.3rem;
+}
+.auditMsg{
+	padding: 0.1rem 0;
+}
+.reason,
+.depart,
+.destination{
+    line-height: 0.4rem;
+}
+.reason>span,.reason>small,.depart>span,.depart>small,.destination>span,.destination>small{
+	font-size: 0.3rem;
+	color: #444;
+}
+#examineTab{
+	background: #fff;
+	display: flex;
+	justify-content:space-between;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	}
+#examineTab>p{
+	padding: 0.15rem  0.55rem;
+	margin-bottom: 0 !important;
+}
+
+.myExamine {
+	color: #04a7ff!important;
+    background: 0 0;
+    border-bottom: 2px solid #007aff!important;
+	
+}
+.dailyList{
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+.mui-table-view:before{
+	height: 0px !important;
+}
+
+/*search*/
+.searchBtn{
+	width: 1.3rem;
+	height: 100%;
+	line-height:0.66rem;
+	background-image: url(../iconAll/img/searchbg.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+}
+.searchBtn:active{
+	opacity: 0.7;
+}
+
+.searchBtn>img{
+	width: 0.44rem;
+	height: 0.44rem;
+	vertical-align: -15%;
+}
+/*我审批tab*/
+#examineTab>p{
+	color: #444;
+	font-size: 0.3rem;
+	position: relative;
+}
+.unread{
+	display:block;
+	position:absolute;
+	top:0.05rem;
+	right: 0.05rem;
+	width: 0.35rem;
+	max-height: 0.35rem;
+	line-height:0.35rem;
+	text-align:center;
+	border-radius: 50%;
+	overflow: hidden;
+	background: #007aff;
+	color: #fff;
+	font-size: 0.24rem;
+}

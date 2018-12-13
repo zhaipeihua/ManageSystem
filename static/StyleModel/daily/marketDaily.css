@@ -1,0 +1,334 @@
+﻿
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+
+
+.mui-active {
+	background: #fff !important;
+}
+
+
+input[type=color],
+input[type=date],
+input[type=datetime-local],
+input[type=datetime],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week],
+select,
+textarea {
+	margin: 0;
+	padding: 0;
+	border: none;
+	background: none;
+}
+
+.mui-icon-arrowleft:before {
+	color: #fff!important;
+}
+
+.mui-table-view-cell:after,
+.mui-table-view:after {
+	left: 0 !important;
+	color: #e5e5e5 !important;
+}
+
+.mui-navigate-right:after,
+.mui-push-right:after {
+	right: 0 !important;
+}
+
+.mui-content>.mui-table-view:first-child {
+	margin-top: 0 !important;
+}
+
+.mui-icon-back:before,
+.mui-icon-left-nav:before {
+	color: #fff !important;
+}
+
+.backIcon {
+	width: .5rem;
+    height: .89rem;
+    display: inline-block;
+    float: left;
+    background: url(../../iconAll/img/arrow.png) left center no-repeat;
+    background-size: 50% 50%;
+}
+
+header {
+	background-color: #fff !important;
+	height: 0.89rem !important;
+	border-bottom: 1px solid #eee!important;
+	box-shadow: 0 4px 5px -3px #eee!important;
+}
+
+.title {
+	color: #000 !important;
+	height: 0.89rem !important;
+	line-height: 0.89rem !important;
+	font-size: 0.36rem !important;
+}
+.mui-content {
+    height: 100%;
+    overflow: auto;
+}
+.workSpace {
+	position: relative;
+}
+
+.selectCity {
+	position: absolute;
+	right: 0.34rem;
+	top: calc(50% - 0.19rem);
+	text-align: right;
+	width: 62% !important;
+	height: 0.38rem !important;
+	font-size: 0.28rem;
+	color: #444;
+}
+
+.selectCity::-webkit-input-placeholder,
+.workGuestVolume-input::-webkit-input-placeholder {
+	/* WebKit browsers */
+	color: #ccc;
+}
+
+.selectCity:-moz-placeholder,
+.workGuestVolume-input:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: #ccc;
+}
+
+.selectCity::-moz-placeholder,
+.workGuestVolume-input::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #ccc;
+}
+
+.selectCity:-ms-input-placeholder,
+.workGuestVolume-input:-ms-input-placeholder {
+	/* Internet Explorer 10+ */
+	color: #ccc;
+}
+
+.arrList {
+	position: relative;
+	height:100%;
+	padding: 0 0.2rem !important;
+}
+
+.arrList>a {
+	height: 100%;
+	line-height: 0.98rem;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.arrList>a>span {
+	font-size: 0.3rem;
+	color: #444 !important;
+	padding-left: 0.47rem;
+	background-repeat: no-repeat;
+}
+
+.arrList>a>small {
+	display: block;
+	width: 58%;
+	position: absolute;
+	right: 0.34rem;
+	top: 0;
+	text-align: right;
+	font-size: 0.28rem;
+	color: #ccc;
+	overflow: hidden;
+	text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+.reporterInp {
+	text-align: left;
+	font-size: 0.28rem !important;
+}
+
+.reporterInp::-webkit-input-placeholder {
+	color: #ccc;
+}
+
+.reporterInp:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: #ccc;
+}
+
+.reporterInp::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #ccc;
+}
+
+.reporterInp:-ms-input-placeholder {
+	/* Internet Explorer 10+ */
+	color: #ccc;
+}
+
+.reporter {
+	background-image: url(../../iconAll/img/huibaor.png);
+	background-size: 0.34rem 0.34rem;
+}
+
+.workToday {
+	background-image: url(../../iconAll/img/qy.png);
+	background-size: 0.34rem 0.34rem;
+}
+
+.workShop {
+	background-image: url(../../iconAll/img/dp.png);
+	background-size: 0.35rem 0.32rem;
+}
+
+.workCustomer {
+	background-image: url(../../iconAll/img/kehu.png);
+	background-size: 0.30rem 0.36rem;
+}
+
+.workSummary {
+	background-image: url(../../iconAll/img/zongj.png);
+	background-size: 0.34rem 0.42rem;
+}
+
+#textarea {
+	color: #444 !important;
+	font-size: 0.28rem;
+}
+
+.workSummary-box {
+	height: 100% !important;
+}
+
+.workSummary-box>div {
+	padding-left: 0.30rem !important;
+}
+
+.workSummary-box>a {
+	border-bottom: 0.01rem solid #e5e5e5;
+}
+
+.workGuestVolume {
+	background-image: url(../../iconAll/img/shul.png);
+	background-size: 0.32rem 0.34rem;
+}
+
+.workGuestVolume-box>a>input {
+	font-size: 0.28rem;
+}
+
+
+/*抄送*/
+
+.notice {
+	background-image: url(../../iconAll/img/cs.png);
+	background-size: 0.32rem 0.34rem;
+}
+
+.noticeBtn {
+	width: 100%;
+	height: 2.18rem;
+	vertical-align: middle;
+}
+.notice-box {
+	min-height: 2.18rem !important;
+}
+
+.noticeIcon,.addIcon {
+	display: inline-block;
+	width: 1rem;
+	margin-left: 0.2rem;
+	padding-top: 0.4rem;
+}
+
+.notice-cont {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding-left: .26rem;
+    padding-bottom: .2rem;
+}
+
+.noticeIcon>span,.addIcon>span {
+	display: block;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	overflow: hidden;
+	background: url(../../iconAll/img/jia.png)top no-repeat;
+	background-size: 100% 100%;
+}
+
+.noticeIcon>p,.addIcon>p {
+	width: 1rem;
+	line-height: 0.24rem;
+	font-size: 0.24rem;
+	padding-top: 0.24rem;
+	text-align: center;
+	color: #444;
+}
+.notice-cont{
+	width: 100%;
+}
+.deleteThis{
+	position: absolute;
+	top: 0.26rem;
+	right:0;
+	width: 100%;
+	height:0.4rem;
+	background: url("../../iconAll/img/sc.png")right no-repeat;
+	background-size: 0.3rem 0.3rem;
+}
+.copyToIcon{
+	display: block;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	overflow: hidden;
+	background: url("../../iconAll/img/1.png")top no-repeat !important;
+	background-size: 100% 100% !important;
+}
+
+/*提交*/
+
+.button {
+	height: 2rem !important;
+	text-align: center;
+}
+
+.button>button {
+	width: 2.94rem;
+	height: 0.8rem;
+	text-align: center;
+	color: #fff !important;
+	/*background: url(../iconAll/img/jux.png)top no-repeat;*/
+	background-size: 100% 100%;
+	margin: 0.3rem 0.32rem 0 0.32rem;
+	border: none !important;
+	border-radius: .5rem;
+	background: -ms-linear-gradient(top, #04a7ff,  #0486fe);/* IE 10 */
+	background:-moz-linear-gradient(top, #04a7ff,  #0486fe);/*火狐*/
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#04a7ff), to(#0486fe));/*谷歌*/
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#04a7ff), to(#0486fe));      /* Safari 4-5, Chrome 1-9*/
+	background: -webkit-linear-gradient(top, #04a7ff, #0486fe);   /*Safari5.1 Chrome 10+*/
+	background: -o-linear-gradient(top, #04a7ff, #0486fe);
+}

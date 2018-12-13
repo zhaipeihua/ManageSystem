@@ -1,0 +1,169 @@
+/** 
+ * 作者： 孙尊路
+ * 创建时间：2017/06/16 14:47:28
+ * 版本： [1.0, 2017/6/16]
+ * 版权： 江苏国泰新点软件有限公司
+ * 描述： 我的日程 
+**/
+
+
+/*全局格式化样式*/
+body,
+.mui-content {
+	background-color: #F5F5F5;
+}
+.mui-icon-arrowleft:before {
+	content: '\e582';
+	color: #007aff;
+	font-size: .6rem!important;
+}
+.mui-bar .mui-icon {
+	padding-top: 5px!important;
+	padding-bottom: 7px!important;
+	margin-left: -20px!important;
+}
+/*日历*/
+
+.em-calendar {
+	border-bottom: 1px solid #e0e0e0;
+}
+
+
+/*左右切换*/
+
+.em-journal-title {
+	width: 100%;
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	background-color: #FFF;
+}
+
+.em-per-block {
+	color: #444;
+	font-size: 18px;
+}
+
+.em-per-block.pre {
+	float: left;
+	text-align: left;
+	font-size: 15px;
+}
+
+.em-per-block.next:active,
+.em-per-block.pre:active {
+	background-color:#fff;
+	border-radius: 15px;
+	font-weight: 800;
+}
+
+.em-per-block.mid {
+	text-align: center;
+	font-size: 18px;
+}
+
+.em-per-block.next {
+	text-align: right;
+	font-size: 15px;
+}
+
+.backToday {
+	padding: 0 .2rem;
+	background: #00a1ea;
+	color: #fff;
+	height: .8rem;
+	font-size: .3rem;
+	line-height: .8rem;
+	text-align: left;
+}
+.morning{
+	display: inline-block;
+	height: .35rem;
+	width: .34rem;
+	background-image: url(../../iconAll/img/clock-1.png);
+	background-size: .4rem .48rem;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.img-1{
+	display: inline-block;
+	height: .35rem;
+	width: .34rem;
+	background-image: url(../../iconAll/img/clock.png);
+	background-size: .4rem .48rem;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.img-2{
+	display: inline-block;
+	height: .35rem;
+	width: .34rem;
+	background-image: url(../../iconAll/img/Record.png);
+	background-size: .4rem .48rem;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.remmenber{
+	display: inline-block;
+	height: .35rem;
+	width: .34rem;
+	background-image: url(../../iconAll/img/Record-1.png);
+	background-size: .4rem .48rem;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.footer{
+	box-shadow: none!important;
+	background-color: #fff!important;
+	border-top: 1px solid #eee;
+}
+.mui-bar{
+	box-shadow: none!important;
+}
+.mui-bar-tab .mui-tab-item .mui-icon {
+	width: 100%!important;
+}
+.mui-tab-item div{
+	height: .89rem;
+	width: 100%;
+}
+.num1{
+	width: 100%;
+	height: 1.5rem;
+	padding: .2rem .2rem;
+}
+.num2{
+	width: 100%;
+	height: 1.5rem;
+	padding: .2rem .2rem;
+}
+.after{
+	float: left;
+	width: 85%;
+	padding: 0 .3rem;
+	border-bottom: 1px solid #eee;
+}
+/*.num2_after p{*/
+	/*color:#f00;*/
+/*}*/
+.am_time{
+	float: left;
+	display: inline-block;
+	height: 1rem;
+	line-height: 1rem;
+}
+.num2_after{
+	float: left;
+	width: 85%;
+	padding: 0 .3rem;
+	border-bottom: 1px solid #eee;
+}
+p{
+	margin-top: 5px;!important;
+}
+.pm_time{
+	float: left;
+	display: inline-block;
+	height: 1rem;
+	line-height: 1rem;
+}

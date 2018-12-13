@@ -1,0 +1,42 @@
+.head {
+    padding: 0 0.2rem;
+}
+
+.mui-bar-nav {
+    background-color: #fff !important;
+    border-bottom: 1px solid #eee!important;
+    box-shadow: 0 4px 5px -3px #eee!important;
+    height: 0.89rem !important;
+    padding: 0 !important;
+}
+
+.title {
+    color: #000 !important;
+    font-size: 0.36rem !important;
+    height: 0.89rem !important;
+    line-height: 0.89rem !important;
+}
+
+.backIcon {
+    width: .5rem;
+    height: .89rem;
+    display: block;
+    float: left;
+    background: url(../iconAll/img/arrow.png) left center no-repeat;
+    background-size: 50% 50%;
+}
+.mui-content{
+    height: 100vh;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.inner-container {
+    position: absolute; left: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+/* for Chrome 只针对谷歌浏览器*/
+.inner-container::-webkit-scrollbar {
+    display: none;
+}

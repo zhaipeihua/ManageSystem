@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height:100vh;
+}
+form{
+    font-size: .28rem;
+    width: 100%;
+}
+form div{
+    display:-ms-flex;
+    display:-webkit-flex;
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+    width: 100%;
+}
+.customer,.password{
+    border-bottom: 1px solid #f2f2f2;
+    height: 1.18rem;
+}
+.sbmit div{
+    height: 1rem;
+}
+form div input{
+    font-size: .28rem;
+    margin-left: .2rem;
+    width:3.2rem;
+}
+.customer label{
+    width: .49rem;
+    height: .49rem;
+    background:#fff url(../iconAll/img/me.png) center center no-repeat;
+    background-size:.3rem .3rem;
+}
+.password label{
+    width: .49rem;
+    height: .49rem;
+    background:#fff url(../iconAll/img/passa.png) center center no-repeat;
+    background-size:.3rem .3rem;
+}
+.logo{
+    width: 100%;
+    height: 1.46rem;
+    background: #fff url(../iconAll/img/copy.png) center center no-repeat;
+    background-size: 5.36rem 1.46rem;
+    margin-bottom: .94rem;
+    color: #585858;
+}
+.logo div{
+    justify-content: center;
+}
+.box{
+    width: 100%;
+}
+.left{
+    padding-left: .3rem;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    width: 2.5rem;
+}
+.right{
+    width: 2.5rem;
+    padding-right: .2rem;
+    margin-left: 2.2rem;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+}
+.submit {
+    display: inline-block;
+    font-size: .36rem;
+    text-align: center;
+    width: 85%;
+    line-height: .89rem;
+    background-color: #C39557;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    background: -ms-linear-gradient(top, #04a7ff,  #0486fe);/* IE 10 */
+    background:-moz-linear-gradient(top, #04a7ff,  #0486fe);/*火狐*/
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#04a7ff), to(#0486fe));/*谷歌*/
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#04a7ff), to(#0486fe));      /* Safari 4-5, Chrome 1-9*/
+    background: -webkit-linear-gradient(top, #04a7ff, #0486fe);   /*Safari5.1 Chrome 10+*/
+    background: -o-linear-gradient(top, #04a7ff, #0486fe);
+}
+.formtips{
+    color:#f00;
+}
+
+.set_same{
+    width: 78%;
+    margin: 0 auto;
+}

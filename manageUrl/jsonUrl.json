@@ -1,0 +1,44 @@
+{
+    "domainName":"http://192.168.22.240/crm",
+    "ports":{
+        "loginPort":"/extcall/login.do",
+
+        "qJRSelectMenuItemListPort":"/order/qJRSelectMenuItemList.do",
+
+        "preOrderPort":"/v2_order/selectIntentOrders.do",
+
+        "preOrderDetailPort":"/v2_order/getOrderDetail.do",
+
+
+        "consultantUpdateIntentOrder":"/v2_order/consultantUpdateIntentOrder.do",
+
+        "selectIntentOrderPort":"/v2_order/selectIntentOrder.do",
+
+        "createIntentionOrderUrlPort":"/v2_order/createOrder.do",
+
+        "getOrderListPort":"/v2_order/getOrderList.do",
+
+        "getOrderDetailPort":"/v2_order/getOrderDetail.do",
+
+        "selectAreasPort":"/extcall/selectAreas.do",
+
+        "selectFirstCategoryListPort":"/V2_Basis/selectFirstCategoryList.do",
+
+        "selectSecondCategoryListPort":"/V2_Basis/selectSecondCategoryList.do",
+
+        "selectThirdCategoryListPort":"/V2_Basis/selectThirdCategoryList.do",
+
+        "getProjectListByThirdIdPort":"/V2_Basis/getProjectListByThirdId.do",
+
+        "searchAppProjectListPort":"/V2_Basis/searchAppProjectList.do",
+        
+        "searchDesignersPort":"/V2_Basis/searchDesigners.do"
+    }
+    
+}
+   
+
+
+   
+    
+   

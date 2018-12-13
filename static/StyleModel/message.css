@@ -1,0 +1,199 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+header{
+	padding: 0 !important;
+}
+.head{
+	height: 0.89rem;
+     background-color: #c69351;
+	padding: 0 0.2rem !important;
+}
+.mui-bar .mui-segmented-control{
+	top: 0 !important;
+}
+
+.mui-table-view:after{
+	height: 0!important;
+}
+.mui-bar-nav~.mui-content {
+	padding-top:1.92rem;
+	/*height: 100%;*/
+}
+#slider{
+	height: 100%;
+}
+/*tab*/
+.mui-segmented-control.mui-segmented-control-inverted .mui-control-item.mui-active{
+	border-bottom: 2px solid #c69351;
+}
+
+#sliderSegmentedControl {
+	background-color: #fff;
+	line-height: 1rem!important;
+	border: 1px solid #f2f2f2;
+}
+.myTab{
+	display: inline-block;
+	float: left;
+	width: 20%;
+	text-align: center;
+	color: #444444;
+}
+.my_active {
+	color: #c69351!important;
+	border-bottom: 2px solid #007aff;
+	background: 0 0;
+	border-bottom: 2px solid #c69351!important;
+}
+
+.mui-content>.mui-table-view:first-child{
+	margin-top: 0!important;
+}
+
+.mui-scroll-wrapper {
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	overflow: inherit;
+}
+
+.checkAll{
+	width: 0.7rem;
+	line-height:0.89rem;
+	color: #FFF;
+	display: none;
+}
+.cancel{
+	line-height:0.89rem;
+	color: #FFF;
+	display: none;
+}
+
+.title {
+	color: #fff;
+	font-size: 0.36rem;
+	height: 0.89rem !important;
+	line-height: 0.89rem !important;
+	left: 1.6rem !important; 
+	right: 1.6rem !important;
+}
+
+.searchIcon{
+	display: block;
+	width: 0.41rem;
+	height: 0.41rem;
+	background-image: url(../iconAll/img/sous.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-top: 0.24rem;
+	margin-bottom: 0.24rem;
+	z-index: 9999;	
+	margin-right: 0.22rem;
+}
+.mui-checkbox.mui-left input[type=checkbox], .mui-radio.mui-left input[type=radio] {
+    left:12px !important;
+}
+/*.mui-checkbox input[type=checkbox], .mui-radio input[type=radio] {
+    position: absolute;
+    top: 4px;
+    right: 20px;
+    display: inline-block;
+    width:16px!important;
+    height:16px!important;
+    border: 0;
+    outline: 0!important;
+    background-color: transparent;
+    -webkit-appearance: none;
+}*/
+.backIcon{
+	width: .5rem;
+    height: .89rem;
+    display: inline-block;
+    float: left;
+    background: url(../iconAll/img/arrow.png) left center no-repeat;
+    background-size: 50% 50%;
+}
+.mui-control-content {
+	background-color: white;
+	height: 100%;
+}
+.arrLi{
+	padding-top: 0.1rem;
+	padding-bottom: 0.1rem;
+	border-bottom: 1px solid #e7e7e7;
+}
+.mui-checkbox.mui-left label, .mui-radio.mui-left label{
+	padding-left:0.2rem;
+}
+.mui-checkbox input[type=checkbox], .mui-radio input[type=radio]{
+	top: calc(50% - 25%);
+}
+.message{
+	padding-top: 0.19rem;
+	padding-bottom: 0.19rem;
+}
+.message{
+	padding-left: 0.2rem;
+}
+.message>span{
+	font-size: 0.3rem;
+	color: #444;
+	margin-right: .1rem;
+}.message>small{
+	font-size: 0.3rem;
+	color: #444;
+	margin-right: .1rem;
+}
+/*复选框的颜色*/
+.mui-checkbox input[type=checkbox]:checked:before, .mui-radio input[type=radio]:checked:before{
+	color: #c69351;
+}
+/*弹出操作*/
+.myBar{
+	-webkit-box-shadow:0 0 0 !important;
+	background-color:#fff;
+	text-align: center;
+	bottom: -50px;
+}
+.read,.delete{
+	padding: 0.12rem 0.4rem 0.14rem 0.4rem !important;
+	margin: 0 1.1rem;
+	border: none;
+	color: #fff;
+    background-size:100% 100% ;
+    background-repeat: no-repeat;     
+}
+.read{
+	background-image: url(../iconAll/img/read.png);
+}
+.delete{
+	background-image: url(../iconAll/img/delete.png);
+}
+.readAll{
+	background-image: url(../iconAll/img/read.png);
+}
+.deleteAll{
+	background-image: url(../iconAll/img/delete.png);
+}
+.readAll,.deleteAll{
+	padding: 0.12rem 0.4rem 0.14rem 0.4rem !important;
+	margin: 0 1.1rem;
+	border: none;
+	color: #fff;
+    background-size:100% 100% ;
+    background-repeat: no-repeat;     
+}
+/*消息状态*/
+.state{
+	position: absolute;
+	top: calc(50% - 25%);
+	right: 0.4rem;
+	border-radius: 0.08rem;
+	padding: 0.05rem 0.2rem;
+	background: #dea862;
+	color: #fff;
+}

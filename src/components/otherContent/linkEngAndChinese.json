@@ -1,0 +1,15 @@
+[
+    {"English":"develop","chinese":"开发","self_route":"./Development"},
+    {"English":"agent","chinese":"代理商","self_route":"./Agent"},
+    {"English":"store","chinese":"店铺","self_route":"./Store"},
+    {"English":"clientele","chinese":"客户","self_route":"./Clientele"},
+    {"English":"preorder","chinese":"未成单","self_route":"./PreorderViewModel"},
+    {"English":"orderover","chinese":"已成单","self_route":"./allComponentsPortsView"},
+    {"English":"appoint","chinese":"指派","self_route":"./Appoint"},
+    {"English":"taskDistributing","chinese":"订单分发","self_route":"./TaskDistributing"},
+    {"English":"payVisit","chinese":"回访","self_route":"./PayVisit"},
+    {"English":"itemSureList","chinese":"项目确认单","self_route":"./itemSureList"},
+    {"English":"assignment","chinese":"任务","self_route":"./Assignement"},
+    {"English":"performance","chinese":"业绩","self_route":"./PerFormance"},
+    {"English":"investigation","chinese":"调查","self_route":"./investigation"}
+]

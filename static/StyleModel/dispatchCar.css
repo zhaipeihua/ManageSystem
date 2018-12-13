@@ -1,0 +1,305 @@
+.mui-navigate-right:after, .mui-push-right:after{
+	right: 0 !important;
+}
+.mui-table-view-cell:after{
+	left: 0 !important;
+}
+input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.mui-active {
+	background: #fff !important;
+}
+
+header {
+    background-color: #fff !important;
+	border-bottom: 1px solid #eee!important;
+	box-shadow: 0 4px 5px -3px #eee!important;
+    height: 0.89rem !important;
+}
+.backIcon{
+	width: .5rem;
+    height: .89rem;
+    display: inline-block;
+    float: left;
+    background: url(../iconAll/img/arrow.png) left center no-repeat;
+    background-size: 50% 50%;
+}
+.title {
+    color: #000 !important;
+    height: 0.89rem !important;
+    line-height: 0.89rem !important;
+    font-size: 0.36rem !important;
+}
+
+.reporterInp {
+	text-align: left;
+	font-size: 0.28rem !important;
+	width: 58% !important;
+}
+.selectCity::-webkit-input-placeholder,
+.reporterInp::-webkit-input-placeholder {
+	/* WebKit browsers */
+	color: #ccc;
+}
+.selectCity:-moz-placeholder,
+.reporterInp:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: #ccc;
+}
+.selectCity::-moz-placeholder,
+.reporterInp::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: #ccc;
+}
+.selectCity:-ms-input-placeholder,
+.reporterInp:-ms-input-placeholder {
+	/* Internet Explorer 10+ */
+	color: #ccc;
+}
+
+
+.arrList {
+	position: relative;
+	height: 100%;
+	padding: 0 0.2rem !important;
+}
+
+.arrList>a {
+	position: relative;
+	height: 100%;
+	line-height: 0.98rem;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.arrList>a>p {
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: inherit;
+	font-size: 0.2rem;
+	color: #01b9fd;
+}
+.arrList>a>small {
+    display: block;
+    width: 58%;
+    position: absolute;
+    right: 0.34rem;
+    top: 0;
+    text-align: right;
+    font-size: 0.28rem;
+    color: #ccc;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.arrList>a>span {
+	display: inline-block;
+	width: 2.15rem;
+	font-size: 0.3rem;
+	color: #444 !important;
+	padding-left: 0.47rem;
+	background-repeat: no-repeat;
+	background-size: 0.36rem 0.36rem;
+	background-position: left center; 
+}
+.custName{
+    background-image: url(../iconAll/img/ccrxm.png);
+}
+.typePeople{
+	background-image: url(../iconAll/img/ck.png);
+}
+.phone {
+    background-image: url(../iconAll/img/ccrdh.png);
+}
+.numberPeople {
+    background-image: url(../iconAll/img/ccrs.png);
+}
+.departure {
+    background-image: url(../iconAll/img/cfdd.png);
+}
+.destination{
+	background-image: url(../iconAll/img/mddd.png);
+}
+.flight{
+	background-image: url(../iconAll/img/hbh.png);
+}
+.train{
+	background-image: url(../iconAll/img/cch.png);
+}
+.arrivalTime{
+	background-image: url(../iconAll/img/khddsj.png);
+}
+.departureTime{
+	background-image: url(../iconAll/img/khlksj.png);
+}
+.dispatchCarCause{
+	background-image:url(../iconAll/img/pcsy.png);
+}
+.approver{
+	background-image: url(../iconAll/img/spr.png);
+}
+.coptyTo{
+	background-image: url(../iconAll/img/icon-cs.png);
+}
+
+.cause{
+	padding: 0.06rem 0 0.06rem 0.45rem;
+}
+.selectCity{
+	font-size: 0.28rem;
+	color: #454545;
+	
+}
+
+/*抄送人*/
+
+.flex-container {
+    text-align: center;
+    background-color: #fff;
+    flex-wrap: wrap;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: inherit;
+    flex-direction: inherit;
+    width: 100%;
+    padding-left: .26rem;
+    padding-bottom: .2rem;
+}
+.noticeIcon>span,
+.approverBy>span,
+.addIcon>span,
+.approverIcon>span {
+	display: block;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	overflow: hidden;
+	background: url(../iconAll/img/jia.png)top no-repeat;
+	background-size: 100% 100%;
+}
+.noticeIcon, .addIcon,.approverIcon{
+	position: relative;
+    display: inline-block;
+    width: 1rem;
+    margin-left: 0.2rem;
+    padding-top: 0.4rem;
+}
+.approverErMsg,.addErMsg{
+	color: red;position:absolute;top: 40%;right: -2.8rem;display: none;
+}
+.personal_name {
+	display: inline-block;
+	margin-top: 0.1rem;
+}
+
+.flex-container-box {
+	width: 100%;
+	overflow: hidden;
+}
+
+.flex-container-scoll {
+	width: 100%;
+	overflow: hidden;
+	overflow-x: auto;
+}
+
+.conter {
+	width: auto;
+}
+
+.add {
+	padding-top: .2rem;
+	height: 1.5rem;
+	border-radius: .2rem;
+	margin-left: .2rem;
+}
+
+.contentBox {
+	margin-bottom: 0 !important;
+}
+.copyToIcon{
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    overflow: hidden;
+    /*background: url("../iconAll/img/1.png")top no-repeat !important;*/
+    background-size: 100% 100% !important;
+}
+.deleteThis {
+    position: absolute;
+    top: 0.26rem;
+    right: 0;
+    width: 100%;
+    height: 0.4rem;
+    background: url(../iconAll/img/sc.png)right no-repeat;
+    background-size: 0.3rem 0.3rem;
+}
+.noticeIcon>p, .addIcon>p,.approverIcon>p ,.approverBy>p{
+    width: 1rem;
+    line-height: 0.24rem;
+    font-size: 0.24rem;
+    padding-top: 0.24rem;
+    text-align: center;
+    color: #444;
+}
+.approverBy{
+	display: inline-block;
+    width: 1rem;
+    margin-left: 0.2rem;
+    padding-top: 0.4rem;
+    margin-right: 0.9rem;
+}
+.arrows{
+	position: absolute;
+	top: 38%;
+	right: -0.85rem;
+	width: 0.56rem;
+}
+/*按钮*/
+.baseBtn {
+	height: 2rem !important;
+	text-align: center;
+}
+.baseBtn:active{
+	opacity: 0.8;
+}
+
+.baseBtn>button {
+	width: 80%;
+	height: 0.8rem;
+	text-align: center;
+	color: #fff !important;
+	border-radius: .5rem;
+	background: -ms-linear-gradient(top, #04a7ff,  #0486fe);/* IE 10 */
+	background:-moz-linear-gradient(top, #04a7ff,  #0486fe);/*火狐*/
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#04a7ff), to(#0486fe));/*谷歌*/
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#04a7ff), to(#0486fe));      /* Safari 4-5, Chrome 1-9*/
+	background: -webkit-linear-gradient(top, #04a7ff, #0486fe);   /*Safari5.1 Chrome 10+*/
+	background: -o-linear-gradient(top, #04a7ff, #0486fe);
+	margin: 0.3rem 0 0.3rem 0;
+	border: none !important;
+	font-size: 0.3rem;
+}
+
+
+.passengerNumber,.passengerType{
+	line-height: 0.6rem;
+	background-color: #f8f6f7;
+	border: 2px solid #eee;
+	text-align: center;
+	width: auto;
+	padding: 0 2%;
+	margin: 0;
+	background-image: url(../iconAll/img/sex.png);
+	background-size: 0.22rem 0.13rem;
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+	padding-right: 0.35rem;
+	color: #444;
+}

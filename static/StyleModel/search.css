@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+html,
+body {
+	height: 100%;
+	overflow: hidden;
+}
+a:active {color:#fff;}
+.mui-bar-nav{
+  box-shadow: 0 0 0 !important;	
+   height: .89rem !important;
+}
+header{
+	background-color:#fff !important;
+}
+.header{
+	position: relative;
+}
+
+.search{
+	position: relative;
+	width: 86%;
+	height: 0.66rem;
+	/*border:0.01rem solid #eee;*/
+    border-radius: 9.99rem;
+	overflow: hidden;
+	margin-top: 0.115rem;
+	background: rgba(238,238,238,.4);
+}
+.search>input{
+	border: none;
+	width: 84%;
+	/*height: 0.66rem;
+	line-height: 0.66rem;*/
+	height: 0.44rem;
+	line-height: 0.44rem;
+	margin-top: 0.11rem;
+	background: none;
+	color: #444;
+	padding: 0 0.15rem !important;
+	margin-bottom: 0 !important;
+}
+.search>input::-webkit-input-placeholder{
+        color: #444;
+        font-size: 0.3rem;
+}
+.search_btn{
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block;
+	width: 1rem;
+	height: 0.66rem;
+	line-height: 0.66rem;
+	background-image:url(../iconAll/img/searchbg.png);
+	background-repeat:no-repeat;
+	background-size:100% 100% ;
+	text-align: center;	
+	color: #fff;
+	font-size: 0.3rem;
+}
+.search_btn>img{
+	width: 0.44rem;
+	height: 0.44rem;
+	vertical-align: -15%;
+	vertical-align: middle;
+    
+}
+
+.cancel{
+	position: absolute;
+	top: 0.115rem;
+	right: 0;
+	color: #444;
+	font-size: 0.32rem;
+}
+/*列表部分*/
+#searchList{
+	height: 100%;
+	overflow-y:scroll ;
+}
+.mui-content>.mui-table-view:first-child{
+	margin-top: 0 !important;
+}
+.mui-table-view-cell:after{
+	left: 0 !important;
+}
+.daily>span,.daily>small{
+	font-size:0.3rem ;
+	color: #444;
+}
+.oUl {
+	height: 100%;
+}
+
+

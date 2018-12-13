@@ -1,0 +1,65 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+.head{
+	height: .89rem !important;
+    line-height: .89rem;
+    color: #000;
+    width: 100%;
+    background-color: #fff !important;
+    position: fixed;
+    z-index: 99;
+    border-bottom: 1px solid #eee!important;
+    box-shadow: 0 4px 5px -3px #eee!important;
+}
+.title {
+    left: 1.6rem!important;
+    right: 1.6rem!important;
+    height: 0.89rem !important;
+    line-height: 0.89rem !important;
+    font-size: 0.36rem !important;
+}
+.backIcon {
+    width: .5rem;
+    height: .89rem;
+    display: inline-block;
+    float: left;
+    background: url(../../src/assets/iconAll/img/arrow.png) left center no-repeat;
+    background-size: 50% 50%;
+}
+
+.mui-bar-nav~.mui-content {
+    height: 100%;
+    padding-top: 0.89rem;
+    background-color: #fff !important;
+}
+.userBtn{
+	width: 100%;
+	text-align: center;
+}
+
+.userBtn>li{
+	width: 60%;
+	margin: 0.5rem auto;
+	border: 1px solid #eee;
+	border-radius: 0.5rem;
+	overflow: hidden;
+}
+.userBtn>li>a{
+	display: block;
+	width: 100%;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	background-color:#26a2ff !important;
+	color: #fff;
+	font-size: 0.3rem;
+}
+.cancel{
+    position: absolute;
+    bottom:2.3rem;
+    right: .3rem;
+    width: 1.5rem;
+    height: 1rem;
+    line-height: 1rem;
+}

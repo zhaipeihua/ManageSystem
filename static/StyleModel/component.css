@@ -1,0 +1,203 @@
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: 0;}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+a {
+	color: #f0f0f0;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+}
+
+.main{
+	width: 100%;
+	/*max-width: 6.9rem;*/
+	padding: .2rem;
+}
+
+.cbp_tmtimeline {
+	margin:.3rem 0 0 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+} 
+
+/* The line */
+/*.cbp_tmtimeline:before {
+	content: '';
+	position: absolute;
+	top: .2rem;
+	bottom: 0;
+	width: .055rem;
+	background: #c69450;
+	left: 8%;
+	margin-left: -10px;
+	height: 80%;
+}*/
+
+.cbp_tmtimeline > li {
+	position: relative;
+}
+
+/* The date/time */
+.cbp_tmtimeline > li .cbp_tmtime {
+	display: block;
+	width: 96%;
+	position: absolute;
+}
+
+.cbp_tmtimeline > li .cbp_tmtime span {
+	display: block;
+	text-align: right;
+	color: #000!important;
+	font-weight: 400;
+}
+
+.cbp_tmtimeline > li .cbp_tmtime span:first-child {
+	font-size:.2rem;
+	color: #bdd0db;
+}
+
+.cbp_tmtimeline > li .cbp_tmtime span:last-child {
+	font-size: .2rem;
+	color: #999!important;
+}
+
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmtime span:last-child {
+	color: #999!important;
+}
+
+/* Right content */
+.cbp_tmtimeline > li .cbp_tmlabel {
+	margin: 0 0 0 22%;
+	/*background: #FFC4D2;*/
+	color: #444;
+	/*padding: .5rem;*/
+	width: 80%;
+	font-size: .2rem;
+	font-weight: 400;
+	/*line-height: .5rem;*/
+	position: relative;
+	border-radius:.05rem;
+	padding-bottom: .3rem;
+}
+.pthoto{
+	display: inline-block;
+	width: .7rem;
+	text-align: center;
+    position: absolute;
+    height: .7rem;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    left: .75rem;
+}
+.pthoto img{
+	display: inline-block;
+	width: .5rem;
+	height: .5rem;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: -5px!important;
+}
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
+	/*background: #87CEEB;*/
+}
+
+.cbp_tmtimeline > li .cbp_tmlabel h2 { 
+	margin-top: 0px;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+
+/* The triangle */
+.cbp_tmtimeline > li .cbp_tmlabel:after {
+	right: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	border-right-color:none;
+	position: absolute;
+	pointer-events: none;
+	border-width: .15rem;
+	top: .2rem;
+}
+
+.cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
+	border-right-color: none;
+}
+.color_word{
+	font-size: .28rem;
+	color: #444!important;
+	font-weight: 400;
+	
+}
+h2{
+	font-size: .28rem;
+	font-weight: 500;
+}
+
+/* The icons */
+.cbp_tmtimeline > li .cbp_tmicon {
+    padding: .05rem; 
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    text-align: center;
+    left: 6%;
+    margin: 0 0 0 -.28rem;
+    border: 4px solid #fff;
+	width: .5rem;
+    height: .5rem;
+    background-repeat: no-repeat;
+	background-size: 0.4rem 0.4rem;
+	background-position: center center;
+}
+
+.cbp_tmicon-shenpNE{
+	background-image: url(../iconAll/img/shenpizhong.png);
+}
+.cbp_tmicon-shenpRE{
+	background-image: url(../iconAll/img/yibohui.png);
+}
+
+.cbp_tmicon-shenpAP{
+	background-image: url(../iconAll/img/yitongguo.png);
+}
+
+.cbp_tmicon-shenpTR{
+	background-image: url(../iconAll/img/zhuanshen.png);
+}
+.cbp_tmicon-shenpCA{
+	background-image: url(../iconAll/img/yiquxiao.png);
+}
+.cbp_tmicon-shenpFI{
+	background-image: url(../iconAll/img/jieshu.png);
+}
+.cbp_tmicon-shenp{
+	background-image: url(../iconAll/img/nothing.png);
+}
+.line_y{
+	content: '';
+	position: absolute;
+	top: .2rem;
+	bottom: 0;
+	width: .055rem;
+	background: #c69450;
+	left: 8%;
+	margin-left: -1px;
+	height: 80%;
+}
+.about4_main {
+    position: relative;
+    overflow: hidden;
+    padding: 0 .2rem;
+}
